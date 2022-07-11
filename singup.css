@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #272626;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    
+}
+
+.card{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid white;
+  border-radius: 40px;
+  width:300px;
+  height:320px;
+  text-align: center;
+  color:white;
+
+    
+}
+
+.wel
+{
+  margin-top: 50px;
+  padding-bottom:50px;
+  margin-bottom: 14%;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  color: aqua;
+}
+
+.btn-style{
+  padding: 10px 30px;
+  border:1px solid white;
+  border-radius: 20px;
+  background-color: white;
+  color:green;
+}
+.btn-style:hover{
+  background-color: green;
+  color:white;
+}
+
+.log
+{
+  margin-bottom: 10%;
+}
+
+.image
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -28px;
+  left: calc(50% - 50px);
+}
+
+.text-field{
+  padding: 10px 15px;
+  margin: 20px 0;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 12pt;
+  color:green;
+}
+
+.card-details{
+  font-size: 22px;
+}
+.content{
+  margin: 0%;
+  padding: 1%;
+  color:dodgerblue;
+  margin-top: 0px;
+  font-size: 0px;
+  background-color: #1d1d1d;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+.logo-l
+{
+  padding: 0%;
+  margin: 0%;
+  font-size: 2rem;
+  color: aliceblue;
+}
+.logo-r
+{
+  padding: 0%;
+  margin: 0%;
+  font-size: 2rem;
+  color: #d4aa11;
+}
+
+.buttons{
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 50px;
+  size: 50px;
+}
+.b1{
+  background-color: aqua;
+  font-size: 20px;
+}
+.b2{
+  background-color: lightgreen;
+  font-size: 20px;
+}
+.b1:hover{
+  background-color:green;
+  transform: scale(1.5);
+}
+.b2:hover{
+  background-color:green;
+  transform: scale(1.5);
+}

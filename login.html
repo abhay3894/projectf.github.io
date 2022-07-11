@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./singup.css">
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>  
+    <title> Login sign up Page</title>
+</head>
+<style>
+</style>
+<body>
+    <div class="content">
+        <a class="logo-l">Movie</a>
+        <a class="logo-r">-Hub.</a>
+    </div>
+    <div class="wel">Welcome, Login/Register</div>
+    <div class="container" heigh="200px" width="200px" ALIGN="Center">
+        
+        <div class="card">
+          <div class="card-details">
+            <h2 class="log">Login</h2>
+           <img class="image" src="img/gamer.png" alt="">
+           <input type="email" id="email" class="text-field" placeholder="Enter your Email">
+            <br>
+           <input type="password" id="password" class="text-field"  placeholder="Enter Your Password"> 
+           <div class="buttons">
+            <button id="signUp" onclick="signUp()" class="btn-style">Register</button>
+            <button id="signIn" onclick="signIn()" class="btn-style">SignIn</button>
+          
+           </div>
+          </div>
+        </div>
+    </div>
+    <script src="/lofinpage/loginfirebaseconfig.js"></script>
+    <script src="/lofinpage/loginscript.js"></script>
+</body>
+</html>
